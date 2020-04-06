@@ -1,0 +1,385 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.divider {
+    display: inline-block;
+    height: 30px;
+    width: 2px;
+    margin: 0 10px;
+    background-color: #d7d7d7;
+}
+.header-12 {
+  margin-top: 15px;
+}
+
+
+/****************** GIFT ****************/
+.gift-card-promotion-l1{
+   border-top: .5px solid #d7d7d7;
+   padding-top: 20px;
+}
+.gift-card-promotion-l1 .body .logo {
+    margin: 0 0 10px;
+    width: 109.44px;
+    height: 36px;
+    margin: 0 auto;
+}
+.gift-card-promotion-l1 .body .description {
+    text-align: justify;
+}
+.default-button-l1.large button {
+background-color: rgb(0, 0, 0);
+color: rgb(245, 245, 245);
+border-color: rgb(0, 0, 0);
+border-radius: 30px;
+padding: 11px;
+font-size: 18px;
+height: 50px !important;
+padding: 0 12px !important;
+}
+
+/***************** SEARCH ***********************/
+
+.searchProducts-l1 {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #d7d7d7;
+    border-radius: 30px;
+    min-width: 300px;
+    width: 100%;
+    height: 45px;
+}
+
+.searchProducts-l1 input {
+    border: none;
+    background-color: transparent;
+    padding-right: 10px;
+    width: 100%;
+    color: #000;
+    padding: 0 10px;
+}
+
+.searchProducts-l1 .button {
+    margin: 0;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    min-width: 100px;
+    background-color: #000 !important;
+    border: none !important;
+    height: 45px !important;
+    font-size: 18px;
+    border-radius: 30px 0 0 30px;
+    color: #fff;
+}
+
+.searchProducts-l1 .icon {
+
+    background-color: #026764;
+    fill: #fff;
+    border-radius: 0 30px 30px 0;
+    padding: 6px;
+    width: 70px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+/******************** SPECIALOFFERS ******************/
+.horizontal-list-container-l1 .scroll-bar {
+    margin: 10px 0 20px;
+}
+.horizontal-list-scroll-bar-l1 .bar:after {
+  content: '';
+    -webkit-transition: left .5s cubic-bezier(.74,0,.35,.96);
+    transition: left .5s cubic-bezier(.74,0,.35,.96);
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    opacity: .9;
+    left: 0;
+}
+.horizontal-list-scroll-bar-l1 {
+    padding-right: 30px;
+    height: 1px;
+    background-color: #d7d7d7;
+    margin-top: 10px;
+    left: 15px;
+    position: relative;
+    width: 100%;
+}
+.horizontal-list-scroll-bar-l1 .bar {
+    position: relative;
+}
+
+.food-card-l1 .image img {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food-card-l1 .image .label {
+    cursor: pointer;
+    bottom: 15px;
+    right: 15px;
+    background-color: #000;
+    color: #f5f5f5;
+    opacity: .85;
+    width: 130px;
+}
+.food-card-l1 .image .label, .food-card-l1 .image .timer {
+    position: absolute;
+    font-size: 15px;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+.food-card-l1 .image img {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.food-card-l1 .image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+    border-radius: 5px;
+    height: 220px;
+}
+.food-card-l1 .image > * {
+    display: inline-block;
+    width: 100%;
+}
+.food-card-l1 .image .label, .food-card-l1 .image .timer {
+    position: absolute;
+    font-size: 15px;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.MuiGrid-root.info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+}
+.MuiGrid-root.info.extra {
+  display: block;
+}
+ .sub-title .main {
+    color: #026764 !important;
+
+}
+  .sub-title .sub {
+    color: #696969;
+}
+.extra .green {
+    color: #026764;
+    float: right !important;
+}
+.food-card-l1 .extra .tag {
+    display: inline-block;
+    margin: 1px;
+    padding: 2px;
+    float: left;
+}
+.food-card-l1 .extra {
+    font-size: 14px;
+}
+.food-card-l1 .extra .light {
+    background-color: #f5f5f5;
+}
+.food-card-l1 .extra .tag .icon {
+    vertical-align: middle;
+    width: 20px;
+}
+
+
+
+
+/******************** FOOTER ***************************/
+.footer-l1 {
+    position: relative;
+    background-color: #000;
+    z-index: 1;
+    padding: 0 0 50px;
+    color: #a5a5a5;
+    margin: 0;
+}
+.footer-l1 .link-group-l2 {
+    width: 22%;
+
+}
+.footer-l1 .link-group-l2 .header {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-l1 .link-l2 {
+    color: #a5a5a5;
+    display: block;
+    text-align: center;
+    padding: 4px 0;
+    -webkit-transition: color .6s;
+    transition: color .6s;
+}
+.footer-l1 .middle-l2 .links {
+    text-align: center;
+    display: inline-flex;
+    flex-grow: 1;
+    width: unset;
+}
+.MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+}
+
+.opeqe-logo-l1 .text {
+    color: #a5a5a5;
+}
+
+.footer-l1 .top-l2 .app {
+    display: inline-block;
+}
+.footer-l1 .top-l2 .apple > * {
+    margin: 0 5px;
+    display: inline-block;
+    width: 150px;
+}
+.footer-l1 .top-l2 {
+    margin: 0 0 20px;
+    border-bottom: .5px solid #464646;
+    margin-left: 140px;
+}
+
+
+
+/******************* Carousel Slider *****************************/
+
+.parent {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 1rem;
+}
+.slider-container {
+ /* if you want to have a scrollbar, you can add overflow here */ 
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    scroll-behavior: smooth;
+}
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.btn {
+    position: absolute;
+    box-shadow: 0 0 6.1px 0.9px grey;
+    padding: 20px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: #026764 !important;
+    text-align: center;
+    border-radius: 50%;
+}
+.prev {
+    left: 11rem;
+}
+.next:after {
+  content: '→';
+}
+.prev:after {
+  content: '←';
+}
+.next:after,.prev:after {
+  position: absolute;
+  font-size: 32px;
+  line-height: 0.9;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  top: 0px;
+  right: 3px;
+  position: absolute;
+}
+.next {
+    right: 10rem;
+}
+.disable {
+    opacity: 0.5;
+ pointer-events: none;
+}
+.child {
+  width: 33.33333%;
+  min-width: 33.33333%;
+  text-align: center;
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 21p  x;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1600px;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
